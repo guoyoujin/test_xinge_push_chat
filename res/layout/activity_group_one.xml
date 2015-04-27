@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GroupOneActivity" >
+
+    <com.tx.customerservices.xlistview.MsgListView
+        android:id="@+id/group_one_order_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:transcriptMode="normal"
+        android:layout_marginTop="0dp" >
+    </com.tx.customerservices.xlistview.MsgListView>
+
+</RelativeLayout>

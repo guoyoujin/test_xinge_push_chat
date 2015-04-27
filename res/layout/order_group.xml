@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <ListView
+        android:id="@+id/setting_lv_popup_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:listSelector="@null"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:focusableInTouchMode="true"
+        android:scrollbars="none"
+         />
+</LinearLayout>

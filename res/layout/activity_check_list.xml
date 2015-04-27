@@ -1,0 +1,299 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/white"
+    tools:context=".CheckListActivity" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_top"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_number"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_number" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_numbers"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_patient_name"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_patient_name" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_patient_names"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_patient_iphone"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_patient_iphone" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_patient_iphones"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_hospital"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_hospital" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_hospitals"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_project"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_project" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_projects"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_part"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_part" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_parts"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_bottom"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_specification"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/check_list_specification" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_check_list_specifications"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" 
+            android:orientation="vertical">
+			<com.tx.customerservices.view.JustifyTextView
+                android:id="@+id/jtv_check_list_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_list_picture" />
+            <GridView
+                android:id="@+id/gridview_check_list_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3" >
+            </GridView>
+
+            
+	  </LinearLayout>
+    </LinearLayout>
+
+	
+
+</RelativeLayout>

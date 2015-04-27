@@ -1,0 +1,406 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OrderInfoActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_top"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_number_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/order_number" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_numbers_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_doctor_name_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/doctor_name" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_doctor_names_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_time_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/order_down_time" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_times_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_hospital_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/place_hospital" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_hospitals_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_inspection_item_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/place_exam" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_inspection_items_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_patient_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/patients_with_the_corresponding" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_patients_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_patient_iphone_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/patient_iphone" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_patient_iphones_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_middle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_price_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/order_price" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_prices_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/common_strip_setting_bottom"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="40dp" >
+			 <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_state_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/order_state" />
+	        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:layout_height="wrap_content" >
+	            <com.tx.customerservices.view.JustifyTextView
+	                android:id="@+id/jtv_order_states_order_info"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="JustifyTextView" />
+	        </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_alignBottom="@+id/order_info_list"
+	        android:layout_alignParentLeft="true" 
+	        android:orientation="horizontal"
+	        android:layout_marginTop="20dp"
+	        android:id="@+id/linearLayout1">
+
+        <com.tx.customerservices.view.FButton
+            android:id="@+id/fbtn_check_list"
+            android:layout_width="match_parent"
+            android:layout_margin="3dp"
+            android:layout_height="match_parent"
+            android:text="@string/check_list" />
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="40dp" 
+        android:layout_alignParentLeft="true" 
+        android:layout_below="@+id/linearLayout1" 
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.tx.customerservices.view.FButton
+            android:id="@+id/fbtn_order_treated"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent"
+            android:text="@string/order_treated" />
+
+        <com.tx.customerservices.view.FButton
+            android:id="@+id/fbtn_order_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/order_cancel" />
+        
+    </LinearLayout>
+	 <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" >
+            <com.tx.customerservices.view.JustifyTextView
+                android:id="@+id/jtv_order_dispose_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gyj已处理" />
+	  </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
